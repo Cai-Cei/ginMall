@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "ginMall/conf"
 
 func main() {
-	fmt.Println("!111")
+	conf.Init()
 }

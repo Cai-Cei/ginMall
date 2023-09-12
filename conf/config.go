@@ -27,7 +27,7 @@ var (
 	AvatarPath  string
 )
 
-func init() {
+func Init() {
 	//读取config
 	file, err := ini.Load("./conf/config.ini")
 	if err != nil {
